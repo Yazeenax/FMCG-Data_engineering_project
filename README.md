@@ -1,4 +1,3 @@
-# main2
 # End-to-End FMCG Data Engineering Pipeline Using AWS S3 and Azure Databricks
 
 ## Project Overview
