@@ -1,234 +1,85 @@
-FMCG Data Engineering Pipeline
-🚀 End-to-end FMCG Data Engineering project built using AWS S3, Databricks, PySpark, Delta Lake, and SQL.
+🚀 FMCG Data Engineering Pipeline
+End-to-end FMCG Data Engineering project built using AWS S3, Databricks, PySpark, Delta Lake, and SQL.
 
-Overview
-This project demonstrates a complete data engineering workflow including:
+📌 Project Overview
+This project demonstrates a complete modern data engineering workflow:
 
 Historical Data Backfill
 Incremental Data Loading
-Medallion Architecture (Bronze, Silver, Gold)
-Dimension & Fact Processing
-Databricks Workflows
+Medallion Architecture (Bronze → Silver → Gold)
+Dimension & Fact Data Processing
+Databricks Jobs & Workflows
 Delta Lake Storage
 Executive BI Dashboard
-Technology Stack
+🛠️ Technology Stack
 AWS S3
 Databricks
 PySpark
 Delta Lake
 SQL
 GitHub
-Project Architecture
+🏗️ Architecture
 S3 Landing Zone
        │
        ▼
-Bronze Layer
+ Bronze Layer
        │
        ▼
-Silver Layer
+ Silver Layer
        │
        ▼
-Gold Layer
+  Gold Layer
        │
        ▼
-Databricks Dashboard
-Dashboard
-Executive FMCG Dashboard
-Dashboard
-
-KPI Metrics
+ Databricks Dashboard
+📊 Executive Dashboard
+Key Business Metrics
 Total Revenue
 Total Quantity Sold
 Unique Customers
 Average Selling Price
-Analytics
+Business Insights
 Revenue by Channel
 Monthly Revenue Trend
 Top Products by Revenue
 Top Customers by Revenue
 Product Price vs Quantity Analysis
-Data Pipeline Components
-Dimensions
-Customer Processing
-Product Processing
-Pricing Processing
+Dashboard Preview
+Dashboard
+
+⚙️ Data Pipeline Components
+Dimension Processing
+Customer Dimension
+Product Dimension
+Pricing Dimension
 Fact Processing
-Incremental Order Fact Load
+Incremental Orders Fact Load
 Watermark-Based Processing
 Automated Workflow Execution
-Repository Structure
+📂 Repository Structure
 FMCG-Data_engineering_project
 │
 ├── consolidated_pipeline/
-├── sample_data/
-├── screenshots/
+│
 ├── dashboard/
+│
+├── sample_data/
+│
+├── screenshots/
+│   └── fmcg-dashboard.png
+│
 └── README.md
-Key Features
-✅ Incremental Loading
-✅ Historical Backfill
-✅ Data Quality Checks
-✅ Delta Lake Storage
-✅ Automated Databricks Jobs
-✅ Business Intelligence Dashboard
-
-Author
-Yazeen
-
-LinkedIn:FMCG Data Engineering Pipeline
-🚀 End-to-end FMCG Data Engineering project built using AWS S3, Databricks, PySpark, Delta Lake, and SQL.
-
-Overview
-This project demonstrates a complete data engineering workflow including:
-
-Historical Data Backfill
-Incremental Data Loading
-Medallion Architecture (Bronze, Silver, Gold)
-Dimension & Fact Processing
-Databricks Workflows
-Delta Lake Storage
+✅ Key Features
+Incremental Loading
+Historical Backfill
+Delta Lake Integration
+Medallion Architecture
+Automated Databricks Workflows
 Executive BI Dashboard
-Technology Stack
-AWS S3
-Databricks
-PySpark
-Delta Lake
-SQL
-GitHub
-Project Architecture
-S3 Landing Zone
-       │
-       ▼
-Bronze Layer
-       │
-       ▼
-Silver Layer
-       │
-       ▼
-Gold Layer
-       │
-       ▼
-Databricks Dashboard
-Dashboard
-Executive FMCG Dashboard
-Dashboard
 
-KPI Metrics
-Total Revenue
-Total Quantity Sold
-Unique Customers
-Average Selling Price
-Analytics
-Revenue by Channel
-Monthly Revenue Trend
-Top Products by Revenue
-Top Customers by Revenue
-Product Price vs Quantity Analysis
-Data Pipeline Components
-Dimensions
-Customer Processing
-Product Processing
-Pricing Processing
-Fact Processing
-Incremental Order Fact Load
-Watermark-Based Processing
-Automated Workflow Execution
-Repository Structure
-FMCG-Data_engineering_project
-│
-├── consolidated_pipeline/
-├── sample_data/
-├── screenshots/
-├── dashboard/
-└── README.md
-Key Features
-✅ Incremental Loading
-✅ Historical Backfill
-✅ Data Quality Checks
-✅ Delta Lake Storage
-✅ Automated Databricks Jobs
-✅ Business Intelligence Dashboard
-
-Author
+👨‍💻 Author
 Yazeen
 
-LinkedIn: FMCG Data Engineering Pipeline
-🚀 End-to-end FMCG Data Engineering project built using AWS S3, Databricks, PySpark, Delta Lake, and SQL.
-
-Overview
-This project demonstrates a complete data engineering workflow including:
-
-Historical Data Backfill
-Incremental Data Loading
-Medallion Architecture (Bronze, Silver, Gold)
-Dimension & Fact Processing
-Databricks Workflows
-Delta Lake Storage
-Executive BI Dashboard
-Technology Stack
-AWS S3
-Databricks
-PySpark
-Delta Lake
-SQL
-GitHub
-Project Architecture
-S3 Landing Zone
-       │
-       ▼
-Bronze Layer
-       │
-       ▼
-Silver Layer
-       │
-       ▼
-Gold Layer
-       │
-       ▼
-Databricks Dashboard
-Dashboard
-Executive FMCG Dashboard
-Dashboard
-
-KPI Metrics
-Total Revenue
-Total Quantity Sold
-Unique Customers
-Average Selling Price
-Analytics
-Revenue by Channel
-Monthly Revenue Trend
-Top Products by Revenue
-Top Customers by Revenue
-Product Price vs Quantity Analysis
-Data Pipeline Components
-Dimensions
-Customer Processing
-Product Processing
-Pricing Processing
-Fact Processing
-Incremental Order Fact Load
-Watermark-Based Processing
-Automated Workflow Execution
-Repository Structure
-FMCG-Data_engineering_project
-│
-├── consolidated_pipeline/
-├── sample_data/
-├── screenshots/
-├── dashboard/
-└── README.md
-Key Features
-✅ Incremental Loading
-✅ Historical Backfill
-✅ Data Quality Checks
-✅ Delta Lake Storage
-✅ Automated Databricks Jobs
-✅ Business Intelligence Dashboard
-
-Author
-Yazeen
-
-LinkedIn:https://www.linkedin.com/in/ahamedyaseen-s
 GitHub: https://github.com/Yazeenax
 
+⭐ If you found this project useful, consider starring the repository.
